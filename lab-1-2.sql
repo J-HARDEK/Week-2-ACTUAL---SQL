@@ -1,9 +1,12 @@
 -- Can I see a list of all teams by year and number of wins,
 -- starting with the fewest wins?
 
+-- CODE WE WROTE:
 SELECT year, name, wins 
 FROM teams
 ORDER BY wins DESC;
+-- END
+
 
 -- Expected result: 2955 rows, ending with
 --

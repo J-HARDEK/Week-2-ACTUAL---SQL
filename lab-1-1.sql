@@ -2,8 +2,10 @@
 -- (e.g. expansion teams, teams moving, renaming, etc). List the year 
 -- and team name of every baseball team that has ever played.
 
+-- CODE WE WROTE:
 SELECT year, name 
 FROM teams;
+-- END
 
 -- Expected result: 2955 rows, ending with
 --
